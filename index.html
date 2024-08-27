@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<link href="img/memo_favicon.ico" rel="Shortcut Icon" type="image/x-icon">
+<link rel="stylesheet" href="css/bootstrap.no-icons.min.css">
+<link rel="stylesheet" href="css/font-awesome-4.6.3.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/bootstrap-tokenfield-0.12.0.min.css">
+<meta affiliate-data="at=11lKbj" content="app-id=917599582" name="apple-itunes-app">
+<script src="js/app/client.js"></script>
+<script src="js/app/db.js"></script>
+<script src="js/app/data.js"></script>
+<script src="js/app/events.js"></script>
+<script src="js/app/page.js"></script>
+<script src="js/app/sync.js"></script>
+<script src="js/modules/async-1.5.2.min.js"></script>
+<script src="js/modules/ba-linkify-0.3.min.js"></script>
+<script src="js/modules/google-analytics-bundle.js"></script>
+<script src="js/modules/jquery-2.2.3.min.js"></script>
+<script src="js/modules/jquery.animate-colors.js"></script>
+<script src="js/modules/underscore-1.8.3.min.js"></script>
+<script src="js/modules/moment-1.7.2.js"></script>
+<script src="js/modules/moment.lang.all-1.7.2.min.js"></script>
+<script src="js/modules/prefixfree-1.0.7.min.js"></script>
+<script src="js/modules/pusher-3.0.0.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/modules/bootstrap-3.3.6.min.js"></script>
+<script src="js/modules/bootstrap-tokenfield-0.12.0.min.js"></script>
+<title>KJ Notepad</title>
+</head>
+<body>
+<div class="container-fluid" id="main">
+<div class="row-fluid" id="existing">
+<div class="span3">
+
+<div class="hidden" id="nav">
+<div id="actions" class="btn-group">
+<button class="btn btn-large" id="action_new" title="New Note">
+<i class="fa fa-pencil"></i>
+</button>
+<button class="btn btn-large" id="action_search" title="Search">
+<i class="fa fa-search"></i>
+</button>
+<button class="btn btn-large" id="action_trash" title="Delete">
+<i class="fa fa-trash-o"></i>
+</button>
+</div>
+<form id="search">
+<input class="search" placeholder="Search" type="search">
+</form>
+<ul id="stacks"></ul>
+</div>
+</div>
+<div class="hidden span9" id="paper">
+<div id="notes" contenteditable="true" data-color_dark="rgb(255, 255, 230)" data-color_standard="rgb(0, 0, 24)"></div>
+</div>
+</div>
+</html>
